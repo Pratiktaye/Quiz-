@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is our first program of jquery</p>
+    <button id="before">before</button>
+
+    <script>
+        $(document).ready(function(){
+            $("before").click(function(){
+                $("p").before("<h2>welcome to jquery before method<h2>");
+            })
+        })
+    </script>
+</body>
+</html>
